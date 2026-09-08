@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Siddartha Beemaneni</title>
+    <link rel="icon" type="image/png" href="icons8-portfolio-64.png">
+    <style>
+        .body1 {
+            background-color: antiquewhite;
+            background-image: url("about bg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        #b1 {
+            background-color: wheat;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            margin: 0 4px;
+            font-size: 16px;
+        }
+
+        #b1:hover {
+            background-color: burlywood;
+        }
+
+        .a {
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .title {
+            color: rgb(22, 48, 106);
+            font-size: 36px;
+            font-weight: bold;
+            margin: 25px 0 10px 0;
+            font-style: oblique;
+        }
+
+        .subtitle {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .project-container {
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px solid burlywood;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            padding: 25px;
+            text-align: left;
+        }
+
+        .project-img {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        .project-title {
+            color: rgb(22, 48, 106);
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .project-desc {
+            color: #444;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .tech-tags {
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: rgb(22, 48, 106);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-right: 8px;
+            margin-bottom: 5px;
+        }
+
+        .btn-github {
+            display: inline-flex;
+            align-items: center;
+            background-color: #24292e;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-github:hover {
+            background-color: #0366d6;
+        }
+
+        .btn-github img {
+            margin-right: 10px;
+            filter: invert(1);
+        }
+
+        .footer-social {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .footer-social a {
+            margin: 0 10px;
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+
+        .footer-social a:hover {
+            transform: scale(1.15);
+        }
+    </style>
+</head>
+<body class="body1">
+
+    <header>
+        <button id="b1">
+            <a href="Home.html" class="a">Home</a>
+        </button>
+
+        <button id="b1">
+            <a href="about.html" class="a">About</a>
+        </button>
+
+        <button id="b1">
+            <a href="skills.html" class="a">Skills</a>
+        </button>
+
+        <button id="b1">
+            <a href="project.html" class="a">Projects</a>
+        </button>
+
+        <button id="b1">
+            <a href="contacts.html" class="a">Contact</a>
+        </button>
+
+        <button id="b1">
+            <a href="https://github.com/SiddarthaBeemaneni/HTML-course" target="_blank" rel="noopener noreferrer" class="a">GitHub</a>
+        </button>
+    </header>
+
+    <h1 class="title">My Projects</h1>
+    <p class="subtitle">Explore my open-source work and coding repositories</p>
+
+    <div class="project-container">
+        <img src="porfolio demo.png" alt="HTML Course & Portfolio Project Preview" class="project-img">
+        
+        <h2 class="project-title">HTML Course & Web Portfolio Repository</h2>
+        
+        <p class="project-desc">
+            A comprehensive repository showcasing full web development fundamentals, responsive personal portfolio pages, interactive UI designs, and multimedia integrations built with HTML5, CSS3, and JavaScript.
+        </p>
+
+        <div class="tech-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Web Design</span>
+            <span class="tag">Portfolio</span>
+        </div>
+
+        <a href="https://github.com/SiddarthaBeemaneni/HTML-course" target="_blank" rel="noopener noreferrer" class="btn-github">
+            <img src="github-logo.png" height="22px" width="22px" alt="GitHub Logo">
+            View Live Repository on GitHub
+        </a>
+    </div>
+
+    <section class="footer-social">
+        <a href="https://github.com/SiddarthaBeemaneni/HTML-course" target="_blank" rel="noopener noreferrer" title="GitHub Repository">
+            <img src="github-logo.png" height="30px" width="30px" alt="GitHub Logo">
+        </a> 
+        <a href="https://www.linkedin.com/in/siddarth-beemaneni-37b0573aa?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">
+            <img src="linkedin-square-icon.png" height="30px" width="30px" alt="LinkedIn Logo">
+        </a> 
+        <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer" title="Gmail">
+            <img src="gmail.png" height="30px" width="30px" alt="Gmail Logo">
+        </a>
+    </section>
+
+</body>
+</html>

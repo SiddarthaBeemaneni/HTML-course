@@ -1,0 +1,71 @@
+div{
+    
+    color: rgba(11, 11, 149, 0.674);
+    padding: 10px;
+    border-radius: 2px;
+    text-align: left;
+    font-size: 25px;
+}
+
+button{
+
+    background-color: rgb(205, 211, 255);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+
+}
+
+header{
+    margin: -60px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.car1{
+
+text-align: left;
+margin-left: 250px;
+font-size: 35px;
+
+}
+
+.car2{
+
+      margin-right: 600px;
+      font-size: 100px;
+}
+
+.car3{
+
+     margin-left: 550px;
+    margin-top: -225px;
+    
+
+}
+
+* {
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
